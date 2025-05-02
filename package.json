@@ -1,0 +1,30 @@
+{
+  "name": "monnify_sample",
+  "version": "1.0.0",
+  "description": "A sample usage of the monnify Nodejs lib",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 15000 test.js",
+    "develop": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "type": "module",
+  "author": "Marvelous Benji",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mocha": "^11.1.0",
+    "monnify-nodejs-lib": "^1.0.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.22"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.0"
+  }
+}
